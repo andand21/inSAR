@@ -1,2 +1,2 @@
 # inSAR
-inSAR Rmeote Sensing analysis Project
+inSAR Remote Sensing analysis Project
