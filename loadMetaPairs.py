@@ -88,6 +88,7 @@ if __name__ == '__main__':
     # result = unique_closest_pairs(metaData)
     
     # lat/lon fairly continuos - sort by lat only
+    #TODO generalise sortingß
     metaData.sort_values("lat")
     
     
