@@ -2,6 +2,12 @@
 inSAR Remote Sensing Analysis Project
 
 Overview:</br>
+This is split into 2x sections, a local analysis area for python analysis locally stored, and a section for using the google earth engine API
+
+Google Earth Engine:
+using intital imagery scripts.
+
+Local Analysis:
 Project to refresh previous inSAR analysis. Using recent paper (Walwer et al 2025 [1]) as a baseline, using data from the paper: https://zenodo.org/records/12752832
 Data from study is post processed as described in [3]. Downloading some data to practice some preprocessing.
 Doing +/-0.03 minutes Lat Lon around Pacaya Volcano - Registering to get data from [3] takes a couple of days and needs an institutional email
@@ -18,6 +24,12 @@ Import:</br>
 Testing out inSARdev python. Limited on data storage to check raw data from https://search.asf.alaska.edu/#/?zoom=10.523&center=-90.639,14.243&polygon=POLYGON((-90.64%2014.32,-90.57%2014.32,-90.57%2014.39,-90.64%2014.39,-90.64%2014.32))&beamModes=IW&polarizations=VV%2BVH&flightDirs=Ascending&subtypes=SA&resultsLoaded=true&granule=S1A_IW_GRDH_1SDV_20250219T001440_20250219T001505_057958_072701_B1F4-METADATA_GRD_HD.
 
 Will need some more temporary data space, as only need small amount of area from images.
+
+Humanitarian collection of techniques:
+https://www.humanitarianlibrary.org/collection/remote-sensing-and-conflicts
+Res1 - https://www.humanitarianlibrary.org/resource/remote-sensing-humanitarian-practitioners - Good basic overview of techniques and opportunities - few years out of date but premises are robust
+OM DIGITAL PROMISE TO FRONTLINE PRACTICE: NEW AND EMERGING TECHNOLOGIES IN HUMANITARIAN ACTION - Top level humanitarian review - less on remote sensing analysis
+Satellite imagery and GIS – practical tools for Emergency Shelter Cluster - Examples of GIS imagery presentations of maps
 
 
 Preprocessing:</br>
