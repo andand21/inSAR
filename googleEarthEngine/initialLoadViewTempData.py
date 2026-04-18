@@ -6,11 +6,11 @@ Created on Mon Mar  2 20:39:55 2026
 @author: aidanturner
 """
 import ee
-import geemap.core as geemap
+import geemap
 import ipyleaflet
 
 
-#ee.Authenticate()
+ee.Authenticate()
 
 # Initialize the Earth Engine module.
 ee.Initialize(project='climateexperiment20260302')
@@ -28,3 +28,5 @@ m
 
 n = ipyleaflet.Map()
 n
+
+#1pm 5th May Warren Rooms
